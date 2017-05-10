@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Classic Apartments</title>
+    <meta name="description" content="">
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+     <div class="page-header" id="header">
+        <div id="logo">
+            <a href="index.html"><h2><img src="images/logo/logo.png" target="_blank" alt="logo" width="150" height="70">Rental Solutions</h2></a>
+        </div>
+        <div class="socialHeader">
+            <ul class="">
+                <li>
+                    <a href="https://www.facebook.com/" target="-_blank"><img src="images/social/facebook1.png"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="-_blank"><img src="images/social/twitter1.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com/" target="-_blank"><img src="images/social/pinterest.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.skype.com/en/" target="-_blank"><img src="images/social/skype.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/?hl=en" target="-_blank"><img src="images/social/instagram1.png"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="headertops">
+            <ul>
+                <li>
+                    <!-- Large modal -->
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Login/List Apartments</button>
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        x</button>
+                                    <h4 class="modal-title" id="myModalLabel">
+                    Login/List Apartments </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                                            <!-- Nav tabs -->
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                                                <li><a href="#Registration" data-toggle="tab">List Apartments</a></li>
+                                            </ul>
+                                            <!-- Tab panes -->
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="Login">
+                                                    <form role="form" class="form-horizontal">
+                                                        <div class="form-group">
+                                                            <label for="email" class="col-sm-2 control-label">
+                                                                Email</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                                                Password</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="password" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-2">
+                                                            </div>
+                                                            <div class="col-sm-10">
+                                                                <button type="submit" class="btn btn-primary btn-sm">
+                                                                    login</button>
+                                                                <a href="https://support.google.com/accounts/answer/41078?hl=en">Forgot your password?</a>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane" id="Registration">
+                                                    <form role="form" class="form-horizontal">
+                                                        <div class="form-group">
+                                                            <label for="email" class="col-sm-2 control-label">
+                                                                Name</label>
+                                                            <div class="col-sm-10">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <select class="form-control">
+                                                                            <option>Agency.</option>
+                                                                            <option>Other</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <input type="text" class="form-control" placeholder="Registered Agency" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="mobile" class="col-sm-2 control-label">
+                                                                Mobile No:</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="mobile" class="col-sm-2 control-label">
+                                                                Office No:</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="email" class="col-sm-2 control-label">
+                                                                Email</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="email" class="form-control" id="email" placeholder="Email" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="password" class="col-sm-2 control-label">
+                                                                Password</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="password" class="form-control" id="password" placeholder="Password" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-2">
+                                                            </div>
+                                                            <div class="col-sm-10">
+                                                                <button type="button" class="btn btn-success btn-sm">
+                                                                    Request Activation</button>
+                                                                <button type="button" class="btn btn-default btn-sm">
+                                                                    Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div id="OR" class="hidden-xs">
+                                                OR</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row text-center sign-with">
+                                                <div class="col-md-12">
+                                                    <h3>
+                                    Sign in with</h3>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="btn-group btn-group-justified">
+                                                        <a href="https://www.facebook.com/" class="btn btn-primary">Facebook</a> <a href="https://www.google.com/" class="btn btn-danger">
+                                        Google</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--closes header -->
+    <div class="search">
+        <div class="form-inline">
+            <form id="searchForm">
+                <select class="form-control">
+                    <option></option>
+                    <option>Kileleshwa</option>
+                    <option>Makadara</option>
+                    <option>Kiamaiko</option>
+                </select>
+                <select class="form-control">
+                    <option></option>
+                    <option>1-bedroom</option>
+                    <option>2-bedrooms</option>
+                    <option>Single-Room</option>
+                </select>
+                <!--  <input type="text" placeholder="Enter location" class="form-control" size="40">
+                <input type="text" placeholder="type of house" class="form-control" size="40"> -->
+                <button class="btn btn-success" widthe="30">Search</button>
+            </form>
+        </div>
+        <!-- Split button1 -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">Term</button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Montly</a></li>
+                <li><a href="#">Semi-annually</a></li>
+                <li><a href="#">Annually</a></li>
+            </ul>
+        </div>
+        <!-- Split button2 -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">Min-Price</button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">10000</a></li>
+                <li><a href="#">20000</a></li>
+                <li><a href="#">30000</a></li>
+                <li><a href="#">50000</a></li>
+                <li><a href="#">60000</a></li>
+                <li><a href="#">70000</a></li>
+            </ul>
+        </div>
+        <!-- Split button3 -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Max-Price</button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">10000</a></li>
+                <li><a href="#">20000</a></li>
+                <li><a href="#">30000</a></li>
+                <li><a href="#">50000</a></li>
+                <li><a href="#">60000</a></li>
+                <li><a href="#">70000</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row col-md-12" id="data">
+        <div class="col-md-9 classic">
+            <div class="image">
+                <img src="images/apartments/apt9.jpg">
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/apartments/apt13.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Maximum Confort</h3>
+                            <p>The Confort at it Climax</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt15.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>The life you've Always desired</h3>
+                            <p>The Utmost relaxation</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt6.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Nothing But Quality</h3>
+                            <p>Dealing with quality products is our DNA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt16.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Your Dream Room</h3>
+                            <p>The serenity of the room will awake your potential</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt19.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Experience the V. I.P life</h3>
+                            <p>Affordable cost, we care for your pocket</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt6.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Be your own King</h3>
+                            <p> Rule your own kingdom with comfort</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt29.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>African Quality</h3>
+                            <p>The rebirth of African Quality</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/apt9.jpeg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Nairobi Made</h3>
+                            <p>The creativity of the city</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/image1.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Provoke your thought with maximum confort</h3>
+                            <p>Your comfort is our desire</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/image10.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Friendly price for all products</h3>
+                            <p>Enjoy every moment in your room</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/image2.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>The Breeze</h3>
+                            <p>The serenity in the room is to be admired</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/image3.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Nothing but quality</h3>
+                            <p>We provide all round quality products</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/image4.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>The realy meaning of living in Nairobi</h3>
+                            <p>Experience the city life with a swag</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/apartments/image8.jpg" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>Kenyan made</h3>
+                            <p>Can only be found in Kenya</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="classicAbout">
+                <h1>Classic, Your Dream Home</h1>
+                <h4>Quality is our DNA</h4>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="sidebar">
+                <h3>Contact the Owner</h3>
+                <div class="form-inline">
+            <form id="searchForm"> 
+                <label for="name">First Name:</label>
+                <input type="text" placeholder="First Name Only" class="form-control" size="15">
+                <label for="name">Second Name:</label>
+                <input type="text" placeholder="Second Name Only" class="form-control" size="15">
+                <label for="name">Email Address:</label>
+                <input type="text" placeholder="Email" class="form-control" size="25">
+                <label for="name">Mobile phone Number:</label>
+                <input type="text" placeholder="Mobile" class="form-control" size="25">
+                <button class="btn-btn btn-success btn-lg">Submit</button>
+            </form>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="row col-md-12" id="footer">
+        <footer></footer>
+    </div>
+    </div>
+
+    
+
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-3.1.1.js"><\/script>')
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
